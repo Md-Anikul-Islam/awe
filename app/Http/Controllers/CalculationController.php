@@ -47,6 +47,7 @@ class CalculationController extends Controller
         // Gross Profit
         $grossProfit = $retailPrice - $costPrice - $totalAmazonFees;
 
+
         // Net Profit (same as gross profit unless there are other deductions)
         $netProfit = $grossProfit;
 

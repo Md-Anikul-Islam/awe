@@ -20,7 +20,7 @@
                 <div class="card overflow-hidden">
                     <div class="row g-0 align-items-center">
                         <div class="col-lg-6 d-none d-lg-block p-2">
-                            <img src="{{ asset('backend/images/1.png') }}" alt="" class="img-fluid rounded h-200">
+                            <img src="{{ asset('backend/images/2.png') }}" alt="" class="img-fluid rounded h-200">
                         </div>
                         <div class="col-lg-6">
                             <div class="d-flex flex-column h-100">
@@ -127,7 +127,7 @@
 </div>
 <footer class="footer footer-alt fw-medium">
     <span class="text-dark">
-        <script>document.write(new Date().getFullYear())</script> © Management System
+        <script>document.write(new Date().getFullYear())</script> © Profit Calculation System
     </span>
 </footer>
 <script src="{{ asset('backend/js/vendor.min.js') }}"></script>

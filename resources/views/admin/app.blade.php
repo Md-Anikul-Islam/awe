@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Dashboard | Inventory</title>
+    <title>Dashboard | Profit Calculation System</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="A fully responsive admin theme which can be used to build CRM, CMS,ERP etc." name="description" />
     <meta content="SDMGA" name="author" />
@@ -146,7 +146,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <script>document.write(new Date().getFullYear())</script> © Inventory</b>
+                        <script>document.write(new Date().getFullYear())</script> © Profit Calculation System</b>
                     </div>
                 </div>
             </div>

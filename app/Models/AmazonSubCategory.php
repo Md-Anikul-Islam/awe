@@ -17,4 +17,9 @@ class AmazonSubCategory extends Model
         'fba_fee',
         'status',
     ];
+
+    public function amazonCategory()
+    {
+        return $this->belongsTo(AmazonCategory::class);
+    }
 }

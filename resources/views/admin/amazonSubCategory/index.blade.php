@@ -42,7 +42,7 @@
                     @foreach($amazonSubCategory as $key=>$amazonSubCategoryData)
                         <tr>
                             <td>{{$key+1}}</td>
-                            <td>...</td>
+                            <td>{{$amazonSubCategoryData->amazonCategory->name}}</td>
                             <td>{{$amazonSubCategoryData->name}}</td>
                             <td>{{$amazonSubCategoryData->referral_fee}}</td>
                             <td>{{$amazonSubCategoryData->size_tier_type}}</td>

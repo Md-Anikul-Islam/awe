@@ -13,7 +13,7 @@ class AmazonSubCategoryController extends Controller
     public function index()
     {
         $amazonCategory =  AmazonCategory::get();
-        $amazonSubCategory = AmazonSubCategory::latest()->get();
+        $amazonSubCategory = AmazonSubCategory::with('amazonCategory')->latest()->get();
         return view('admin.amazonSubCategory.index',compact('amazonCategory','amazonSubCategory'));
     }
 
